@@ -15,7 +15,7 @@ jobs:
     strategy:
       matrix:
         os: [ubuntu-18.04]
-        update: [x, 272, 262, 252]
+        update: [x, 265, 262, 252]
       fail-fast: false
       max-parallel: 6
     name: JDK 8.0.${{ matrix.update }}, ${{ matrix.os }}
