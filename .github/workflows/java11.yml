@@ -20,7 +20,7 @@ jobs:
     name: JDK 11.0.${{ matrix.update }}, ${{ matrix.os }}
 
     steps:
-    - uses: actions/checkout@v1
+    - uses: actions/checkout@v2
     - name: Set up JDK
       uses: zing-actions/setup-java@v1
       with:
